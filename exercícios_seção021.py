@@ -27,11 +27,12 @@ elif op == 3:
 
 elif op == 4:
     n1 = int(input('Digite um número inteiro: '))
-    n2 = int(input('Digite um segundo número inteiro: '))   
-    if n1 > 0 or n2 > 0:
-        print(f'A divisão entre esses números são: {n1 / n2} ')
+    n2 = int(input('Digite um segundo número inteiro: '))  
+
+    if n1 == 0 or n2 == 0:
+        print('O denominador não pode ser zero! Por favor, escolha um número diferente de zero')
     else:
-        print('O denominador não pode ser zero ')      
+        print(f'A divisão entre os dois números é: {n1 / n2}')      
 
 
 
