@@ -11,4 +11,4 @@ elif idade >= 60 and tempo >= 25:
     print('Apto para aposentadoria ')
     
 else: 
-    print('Não apto par aposentadoria ')              
+    print('Não apto para aposentadoria ')              
